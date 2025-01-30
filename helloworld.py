@@ -16,3 +16,6 @@ response = client.chat.completions.create(
 )
 
 print(response.choices[0].message.content)
+
+#export the env variable 
+# export OPENAI_API_KEY="<value provided by DeepSeek"
